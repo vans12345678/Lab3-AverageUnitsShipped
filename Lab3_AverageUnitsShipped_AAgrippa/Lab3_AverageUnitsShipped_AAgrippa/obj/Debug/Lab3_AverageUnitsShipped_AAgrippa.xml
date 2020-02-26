@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab3_AverageUnitsShipped_AAgrippa
+</name>
+</assembly>
+<members>
+<member name="T:Lab3_AverageUnitsShipped_AAgrippa.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab3_AverageUnitsShipped_AAgrippa.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab3_AverageUnitsShipped_AAgrippa.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Lab3_AverageUnitsShipped_AAgrippa.FrmAverageUnitsShipped.FrmAverageUnitsShipped_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the form loads, assign each textbox a place in the textbox array,
+ Assign each label a place in the label array
+ </summary>
+</member>
+<member name="M:Lab3_AverageUnitsShipped_AAgrippa.FrmAverageUnitsShipped.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ This event handler will close the form completely
+ </summary>
+</member>
+<member name="M:Lab3_AverageUnitsShipped_AAgrippa.FrmAverageUnitsShipped.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ This event handler will call a function to set all input/output back to default
+ </summary>
+</member>
+<member name="M:Lab3_AverageUnitsShipped_AAgrippa.FrmAverageUnitsShipped.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Validates the input, displays input, calculates the average per employee and the average per day. 
+ </summary>
+</member>
+<member name="M:Lab3_AverageUnitsShipped_AAgrippa.FrmAverageUnitsShipped.SetDefaults">
+ <summary>
+ Clears input and output, re-enables controls, sets the form back to the default state
+ </summary>
+</member>
+</members>
+</doc>
